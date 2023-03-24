@@ -40,6 +40,31 @@ if($_SESSION['status']!="login"){
     <link href="css/demo.css" rel="stylesheet" />
 </head>
 <style>
+    @media (max-width: 576px) {
+        .modal-dialog {
+            max-width: 100%;
+            margin: 0;
+            height: 100%;
+        }
+
+        .modal-content {
+            height: 100%;
+            border-radius: 0;
+        }
+
+        .modal-header h4 {
+            font-size: 1.2rem;
+        }
+
+        .modal-body {
+            padding: 1rem;
+        }
+
+        .modal-footer {
+            padding: 1rem;
+        }
+    }
+
     td,th {
         text-align: center;
         vertical-align: middle;
@@ -55,7 +80,7 @@ if($_SESSION['status']!="login"){
     -->
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="dashboard.php" class="simple-text">
+                    <a href="index.php" class="simple-text">
                         PEKAT
                     </a>
                 </div>
@@ -223,7 +248,7 @@ if($_SESSION['status']!="login"){
                   <!-- <h5 class="card-title m-0">Tulis Pengaduan</h5> -->
                 </div>
                 <div class="card-body">
-                  <table class="table table-bordered" style="border-collapse: collapse; width= 100%;">
+                  <table class="table table-bordered table-responsive" style="border-collapse: collapse; width= 100%;">
                     <thead>
                       <tr>
                         <th style="width: 10px">#</th>
@@ -297,6 +322,7 @@ if($_SESSION['status']!="login"){
                               </div>
                             </div>
                           </div>
+
                         <?php }} ?>
                       </tbody>
                     </table>                  
@@ -307,8 +333,6 @@ if($_SESSION['status']!="login"){
                     </button>
                   </div>
                 </div>
-
-
 
                 <?php
                 include "koneksi.php";
@@ -717,6 +741,8 @@ if($_SESSION['status']!="login"){
 <script src="js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="js/core/popper.min.js" type="text/javascript"></script>
 <script src="js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
 <script src="js/plugins/bootstrap-switch.js"></script>
 <!--  Google Maps Plugin    -->

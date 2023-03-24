@@ -51,7 +51,7 @@ if($_SESSION['status']!="login"){
     -->
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="incex.php" class="simple-text">
+                    <a href="index.php" class="simple-text">
                         PEKAT
                     </a>
                 </div>

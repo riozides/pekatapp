@@ -134,7 +134,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Tentang PEKAT</h2><br>   
-                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                    <h3 class="section-subheading text-muted">*Note: Aplikasi web ini belum support untuk dibuka di perangkat Anda. Mohon maaf atas ketidaknyamanannya. Terima kasih...</h3>
                 </div>
                 <div>
                     <p>Selamat datang di <b>PEKAT</b>! <b>PEKAT</b> adalah aplikasi yang didedikasikan untuk membantu masyarakat dalam melaporkan segala bentuk pelanggaran atau ketidakpatuhan yang terjadi di sekitar lingkungan Anda.</p>
